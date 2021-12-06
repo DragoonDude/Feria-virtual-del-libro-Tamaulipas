@@ -1,0 +1,208 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Feria virtual del libro Tamaulipas</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Feria Virtual</a>
+          <a href="#secc2">Libros</a>
+          <a href="#secc3">Autores</a>
+          <a href="#secc4">Talleres</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Feria Virtual</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En México se publican aproximadamente 50 millones de ejemplares y 17 mil títulos por año, exclusivamente de editoriales locales, una tendencia que se duplicó en los últimos 20 años. Tradición y vanguardia que cada año se combinan para dar lugar a numerosos títulos nuevos. En este momento México cuenta con más de 416 editoriales. Es sin duda, un país líder de la industria editorial en la región.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En nuestra edición 2021, la Feria Virtual del libro Tamaulipas invita al público en general a participar en talleres, lectura de cuentos, presentaciones de libros y más. Además, ofreceremos nuestros títulos con el 20%-50% de descuento! Aquí podrás adquirir las obras de Joost A. M. Meerloo, George Orwell y Aldous Huxley. ¡También podrás adquirir libros de ciencias naturales, educación y cultura, ciencias sociales, espiritualidad, teología y medio ambiente!
+		        	<br>
+		        	<p>En esta edición la Feria Virtual del libro Tamaulipas presentará el día miércoles 3 de noviembre, a las 3:00 p.m. los libros "The Rape of the Mind", “1984” y “Un mundo feliz”. El acceso a la feria virtual será completamente gratis y podrá realizarse desde cualquier dispositivo móvil. La exposición y venta estarán disponibles las 24 horas del día.</p>
+		        	<br>
+		        	<p>¡NO TE LO PUEDES PERDER!</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Nuestros estantes">
+	        		
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>¡Parte de nuestros estantes donde guardamos los libros que desean estar en tus manos!</p>
+	        		<!--texto para imagen a la derecha-->
+	        		
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Nuestros estantes">
+	        		<!--texto para la imagen-->
+	        		<p>¡Parte de nuestros estantes donde guardamos los libros que desean estar en tus manos!</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		
+	        		<!--texto para la imagen-->
+	        		
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Libros</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>"The Rape of the Mind" <br> Publicada en el año 1956, el autor (basado en su experiencia) habla sobre las técnicas de sumisión mental utilizadas por estados totalitaristas durante la guerra coreana. El libro contiene 18 capítulos divididos en 4 partes que tratan sobre: tácticas utilizadas para someter a individuos, técnicas de sumisión que empleaban los lideres totalitaristas, cumplimiento masivo enfocado hacia la coerción discreta y en el análisis de como los individuos y la sociedad pueden prepararse en contra de tácticas autoritarias.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>"1984" <br> Publicada en el año 1949, es una novela distópica que describe la vida de Winston Smith, un miembro de baja categoría de un sequito denominado "The Party", quien se encuentra frustrado por la vigilancia y de su gobernante "Big Brother", el cual controla cada aspecto de la vida de las personas. "The Party" controla lo que las personas leen, hablan y dicen, amenazando de enviarlos al cuarto 101 como castigo si llegasen a desobedecer. Durante el desarrollo, el protagonista inicia una rebelión discreta contra "The Party" al guardar un diario de sus pensamientos secretos, lo cual es considerado un crimen mortal. Junto a su amante Julia, inician una pelea predestinada por la libertad y justicia. Quizás lo más escalofriante del libro es la noción de una nación bajo el control entero totalitario es muy posible.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>"Un mundo feliz" <br> Publicada en el año 1932 y escrita en tan solo cuatro meses, el autor imagina una sociedad futurista que utiliza la genética y clonación para el control de la sociedad. Los niños de la sociedad son creados artificialmente, perteneciendo a una de las 5 categorías: Los Alpha (los más inteligentes y que representan a la elite), los Betas (los ejecutivos), los Gammas (los empleados subalternos), los Deltas y los Epsilones (los menos sofisticados y destinados al trabajo duro y mano de obra). Las personas son sanas, no se enferman y poseen grandes avances tecnológicos. Las guerras y pobreza han desaparecido. Ya no existe la familia, la literatura, el arte, la religión ni la filosofía. Es una utopía llena de paradojas y vacío que envuelve al lector a verla como una distopía.</p>
+		        <br>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="¡Libros que presentaremos!">
+        		<!--texto para la imagen-->
+        		<p>De izquierda a derecha: "The rape of the mind", "1984" y "Un mundo feliz".</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Autores</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Joost Abraham Maurits Meerloo (1903-1976) <br> Fue un psiquiatra danés que huyó de los Nazis y sobreviviente del Holocausto. Fungió como Coronel y experto psiquiatra en la milicia danés durante la Segunda Guerra Mundial, luego inmigró hacia los Estados Unidos donde educó en la universidad de Columbia y continuó su investigación en el tema del control mental.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Eric Arthur Blair "George Orwell" (1903-1950) <br> Fue un novelista, periodista, ensayista y crítico británico nacido en la India. Sus libros contienen experiencias autobiográficas vividas en tres etapas de su vida: Cuando fue representante de las fuerzas del orden colonial en Birmania en contra del imperialismo británico, cuando estuvo a favor del socialismo democrático y la durante la guerra civil española, en contra de los totalitarismos nazi y estalinista.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Aldous Leonard Huxley (1894-1963) <br> Fue un escritor y filósofo británico conocido por sus novelas y ensayos, emigró a los Estados Unidos. Se le considera uno de los más importantes representantes del pensamiento moderno. A los 16 años quedó prácticamente ciego, no fue hasta 18 meses después que recuperó parcialmente la vista. Esto lo orilló a aprender a leer y a tocar el piano con el sistema Braille. Muere en el año 1963 por problemas de salud ocasionada por un tumor en la lengua.</p>
+		        <br>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="¡Los famosos autores de los libros que presentaremos!">
+        		<!--texto para la imagen-->
+        		<p>De izquierda a derecha: Joost A. M. Meerloo , George Orwell y Aldous Huxley.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Talleres</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>"Diseño editorial: cómo se hace un libro"<br> ¡Aprende a maquetar un texto con claridad, jerarquía y belleza! Comenzarás explorando el mundo de los libros y analizaréis juntos la forma en que han sido diseñados. Continuarás conociendo qué herramientas necesitarás para trabajar en el diseño de una publicación y qué tipo de libros puedes realizar. Descubrirás las distintas partes de las que se compone la tripa del libro y aprenderás a trabajar con pliegos y número de páginas. Después, empezarás a trabajar con la caja de texto. Seguidamente, trabajarás los párrafos del texto. Aprenderás a organizarlos y editarlos teniendo en cuenta diferentes parámetros. Finalmente, ajustarás su textura, jugando con el espacio entre letras y entre palabras. Una vez finalizada la edición del cuerpo de texto, descubrirás qué otras partes tiene la página y aprenderás a automatizar algunos procesos. Por último, aprenderás a presentar los archivos finales para enviar a imprenta o para publicar en formato digital como libro electrónico.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>"Creación de libros pop-up" <br> Un libro desplegable, o hecho con la técnica pop-up, constituye una obra de verdadera ingeniería en papel, en la que belleza, técnica y contenido van de la mano creando un mundo para que el lector pueda sumergirse cada vez que pasa de página. En este taller aprenderás a crear tu propio libro pop-up paso a paso, recorriendo todas las etapas de la cadena de producción: corte, montaje, pegado, cajos y encuadernación. Descubrirás distintas técnicas pop-up basadas en una construcción sólida y funcional para que puedas desarrollar tus propios proyectos. Aprenderás a utilizar las herramientas y comprender los materiales es fundamental para un buen desarrollo pop-up. Después comenzarás a realizar tus primeras prácticas de mecanismos para adquirir soltura y crear estructuras que podrás utilizar en tus propias creaciones. Continuarás con el proceso más creativo de todos: el desarrollo de la idea, siguiendo la metodología marcada para que puedas componer tu propio libro. Una vez definido todo te pondrás manos a la obra construyendo cada una de las páginas hasta el ensamblaje final de todas y la encuadernación de las tapas. Para finalizar, descubrirás distintos campos en los que se utilizan técnicas parecidas a las aprendidas en el taller.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>"Edición de fotolibros y narrativa visual" <br> Un fotolibro no es un álbum de fotos familiar o un libro de fotografía porque, además de fotografías, tiene una narrativa visual que busca contar una historia al público a través de imágenes. La estructura, el diseño y las fotografías, juntas, evocan un sentimiento intencionado por el editor y fotógrafo, dando como resultado una obra de arte. En este taller aprenderás a autoeditar tu fotolibro, haciendo énfasis en el aspecto creativo desde la conceptualización hasta la producción, junto a uno de los referentes de la edición y la fotografía más vigentes. Brevemente, conocerás las partes que conforman un libro y los diferentes armados que puedes lograr y, junto a ello, los softwares que utilizarás para desarrollar la edición de tu fotolibro, como Adobe InDesign y Bridge. Verás cómo puedes conceptualizar un libro, editar las imágenes y definir una estructura. Seguidamente, escogerás una secuencia de imágenes que luego trasladarás a un layout de InDesign para trabajar las páginas y definir el diseño (portada, tipografía y paleta de colores) de tu fotolibro. Hasta finalizar con una obra de arte en tus manos lista para producir y mostrar!</p>
+		        <br>
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Creación de libros pop-up">
+        		<!--texto para la imagen-->
+        		<p>¡Aprende los mecanismos básicos para crear tu propio libro desplegable con altura y dimensión!</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">© 2021 Feria Virtual del libro Tamaulipas.</p>
+	      <br>
+	      <p>Todos los derechos reservados.</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
